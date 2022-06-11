@@ -1,0 +1,20 @@
+{
+  "name": "sneakersshop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "cd client && npm install && npm start",
+    "start": "cd server && npm install && npx sequelize db:create && npx sequelize db:migrate && npx sequelize db:seed:all && npm run dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shiianova-S/sneakersShop.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Shiianova-S/sneakersShop/issues"
+  },
+  "homepage": "https://github.com/Shiianova-S/sneakersShop#readme"
+}
